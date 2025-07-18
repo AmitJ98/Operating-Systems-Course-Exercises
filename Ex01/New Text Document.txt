@@ -1,0 +1,4 @@
+g++ -std=c++11 -O3 -Wall memory_latency.cpp measure.cpp -o memory_latency
+
+./memory_latency > latency_results.csv
+./memory_latency 6000000000 1.1 100000000 > latency_results.csv

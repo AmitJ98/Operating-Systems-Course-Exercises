@@ -1,0 +1,31 @@
+# IDE and Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+._*
+Thumbs.db
+
+# Build directories
+cmake-build-*/
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# Compiled binaries
+Ex01/measure
+Ex01/WhatIDo
+Ex02/libuthreads.a
+Ex03/MapReduceFramework
+Ex04/vm_test
+
+# Temporary and archive files
+*.tmp
+*.log
+*.tar
+*.zip 
